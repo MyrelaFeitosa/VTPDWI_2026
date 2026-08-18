@@ -5,4 +5,4 @@ Professor: Eder Pansani
 
 Vou colocar aqui todas as atividades realizadas durante o semestre dessa disciplina.
 
-Primeiro: Site Pessoal - Atividade para desenvolver um site web sobre o mim mesma utilizando os conceitos vistos em sala de aula
+Primeiro: Site Pessoal - Atividade para desenvolver um site web sobre o mim mesma utilizando os conceitos estudados em sala de aula
