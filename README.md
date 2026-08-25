@@ -2,7 +2,8 @@
 Repositório da Disciplina de Desenvolvimento WEB I /2026
 
 Professor: Eder Pansani
+Aluna: Myrela Feitosa
 
-Vou colocar aqui todas as atividades realizadas durante o semestre dessa disciplina.
+[Atividade_01] - Site Pessoal - Praticando: Títulos, Imagens, Links e Elementos Semânticos.
+[Atividade_02] - Praticando: Tabelas, Listas, FavIcons, Entidade e Validação.
 
-Primeiro: Site Pessoal - Atividade para desenvolver um site web sobre o mim mesma utilizando os conceitos estudados em sala de aula
