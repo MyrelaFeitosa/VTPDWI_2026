@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas com Dados Reais</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icons/icon_tabela.png"> 
+
+    <style>
+        table,
+        th,
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 id="topo">Tabelas com Dados Reais</h1>
+    <p>Praticando 1 - Treinando Tabelas com tipos diferentes de cabeçalhos semânticos </p>
+    
+    <h2>Menu de Navegação</h2>
+
+    <ul>
+        <li>
+            <a href="index.html">Início</a> 
+        </li>
+        <li>
+            <a href="tabelas.html">Praticando 1 - Tabelas com Dados Reais</a> 
+        </li>
+        <li>
+            <a href="tabelasMescladas.html">Praticando 2 - Tabelas com Mesclagem (Colspan e Rowspan)</a> 
+        </li>
+        <li>
+            <a href="listas.html">Praticando 3 - Recita de Brownie (Listas)</a> 
+        </li>
+    </ul>
+    </header>
+
+    <br>
+    <section>
+        <h3>Tabela 1 -  Cabeçalho: Linha</h3>
+
+        <table>
+            <caption>Notas e Frequência</caption>
+            <thead>
+                <tr>
+                   <th scope="col">Diário</th><th scope="col">Disciplina</th><th scope="col">Carga Horária</th><th scope="col">Faltas</th><th scope="col">Frequência</th><th scope="col">Situação</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                   <td>399111</td><td>Banco de Dados 2</td><td>80 Aulas</td><td>4</td><td>475.0 %</td><td>Cursando</td>
+                </tr>
+                <tr>
+                   <td>399114</td><td>Desenvolvimento Web 1</td><td>80 Aulas</td><td>8</td><td>100.0 %</td><td>Cursando</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                   <td>399112</td><td>Sistemas Operacionais</td><td>80 Aulas</td><td>4</td><td>66.66 %</td><td>Cursando</td>
+                </tr>
+            </tfoot>
+            
+        </table>
+
+    </section>
+
+    <section>
+         <h3>Tabelas 2 - Cabeçalho: Coluna</h3>
+
+         <table>
+            <caption>Ficha de Aluno</caption>
+            <tbody>
+                <tr>
+                   <th scope="row">Nome</th><td>Myrela Feitosa da Silva</td>
+                </tr>
+                <tr>
+                    <th scope="row">Prontuário</th><td>VP3031772</td>
+                </tr>
+                <tr>
+                    <th scope="row">Curso</th><td>Sistema de Informações</td>
+                </tr>
+                <tr>
+                    <th scope="row">Semestre</th><td>4° Semestre</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th scope="row">Campus</th><td>Votuporanga</td>
+                </tr>
+            </tfoot>
+         </table>
+
+    </section>
+
+    <section>
+         <h3>Tabela 3 - Cabeçalho: Linha e Coluna</h3>
+        
+         <table>
+            <caption>Comparação: HTML x CSS x JavaScript </caption>
+            <tr>
+                <th scope="col">Aspecto</th><th scope="col">HTML</th><th scope="col">CSS</th><th scope="col">JavaScript</th>
+            </tr>
+             <tr>
+                <th scope="row">Tipo</th><td>Linguagem de Marcação</td><td>Linguagem de Estilo</td><td>Linguagem de Programação</td>
+            </tr>
+             <tr>
+                <th scope="row">Função Principal</th><td>Estrutura do Conteúdo</td><td>Aparência Visual</td><td>Comportamento e Interatividade</td>
+            </tr>
+             <tr>
+                <th scope="row">Onde Roda</th><td>Navegador (interpretador)</td><td>Navegador (interpretador)</td><td>Navegador ou Servidor (Node.js)</td>
+            </tr>
+         </table>
+    </section>
+
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+
+    <footer>
+        <br>
+        <p>Desenvolvido por Myrela Feitosa</p>
+        <p>&copy; 2026</p>
+    </footer>
+
+</body>
+</html>

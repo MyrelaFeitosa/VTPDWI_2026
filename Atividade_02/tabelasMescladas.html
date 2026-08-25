@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Mescladas</title>
+    <link rel="icon" type="image/x-icon" href="imagens/icons/icon_tabela.png"> 
+
+    <style>
+        table,
+        td{
+            border: 1px solid red;
+        }
+
+        td{
+            padding: 30px solid red;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1 id="topo">Tabelas com Colspan e Rowspan</h1>
+    <p>Praticando 2 - Treinando Tabelas com tipos diferentes de mesclagem</p>
+    
+    <h2>Menu de Navegação</h2>
+
+    <ul>
+        <li>
+            <a href="index.html">Início</a> 
+        </li>
+        <li>
+            <a href="tabelas.html">Praticando 1 - Tabelas com Dados Reais</a> 
+        </li>
+        <li>
+            <a href="tabelasMescladas.html">Praticando 2 - Tabelas com Mesclagem (Colspan e Rowspan)</a> 
+        </li>
+        <li>
+            <a href="listas.html">Praticando 3 - Recita de Brownie (Listas)</a> 
+        </li>
+    </ul>
+    </header>
+
+    <section>
+        <h3> Tabela 1 - Colspan</h3>
+
+        <table>
+            <tr>
+                <td colspan="3">    Colspan    </td>
+            </tr>
+            <tr>
+                <td> -- </td><td> -- </td><td> -- </td>
+            </tr>
+        </table>
+
+    </section>
+
+    <section>
+         <h3> Tabela 2 - Rowspan</h3>
+
+         <table>
+            <tr>
+                <td> -- </td><td rowspan="3"> Rowspan </td>
+            </tr>
+            <tr>
+                <td> -- </td>
+            </tr>
+            <tr>
+                <td> -- </td>
+            </tr>
+         </table>
+
+    </section>
+
+    <section>
+         <h3> Tabela 1 - Colspan e Rowspan</h3>
+
+         <table>
+           <tr>
+                <td colspan="4"> Colspan </td>
+            </tr>
+            <tr>
+                <td> -- </td><td> -- </td><td> -- </td><td> -- </td>
+            </tr>
+             <tr>
+                <td> -- </td><td rowspan="3"> Rowspan </td><td> -- </td><td> -- </td>
+            </tr>
+            <tr>
+                <td> -- </td><td> -- </td><td> -- </td>
+            </tr>
+            <tr>
+                <td> -- </td><td> -- </td><td> -- </td>
+            </tr>
+         </table>
+        
+    </section>
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+
+    <footer>
+        <br>
+        <p>Desenvolvido por Myrela Feitosa</p>
+        <p>&copy; 2026</p>
+    </footer>
+    
+</body>
+</html>
