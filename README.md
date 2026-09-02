@@ -9,3 +9,5 @@ Aluna: Myrela Feitosa
 
 [Atividade_02] - Praticando: Tabelas, Listas, FavIcons, Entidade e Validação.
 
+[Atividade_03] - Praticando: Introdução ao CSS, Seções, Containers, Bordas, Outline e :Houver.
+
