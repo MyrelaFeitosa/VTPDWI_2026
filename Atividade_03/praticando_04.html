@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando_04</title>
+
+    <style>
+
+        .header {
+            background-color: black;
+            color: white;
+        }
+
+        .div {
+            background-color: green;
+            color: green;
+        }
+
+        .footer {
+            background-color: rgb(167, 167, 167);
+        }
+
+        .section1 {
+            background-color: rgb(184, 247, 252);
+            border: 3px solid rgb(81, 185, 192);
+        }
+
+        .img1Border {
+            border: 3px dotted rgb(81, 185, 192);
+        }
+
+        .section2 {
+            background-color: rgb(245, 213, 166);
+            border: 3px solid rgb(204, 145, 56);
+        }
+
+         .img2Border {
+            border: 3px dotted rgb(204, 145, 56);
+        }
+
+        .section3 {
+            background-color: rgb(158, 252, 166);
+            border: 3px solid rgb(52, 116, 58);
+        }
+
+        .img3Border {
+            border: 3px dotted rgb(52, 116, 58);
+        }
+
+        .legenda {
+            color:rgb(134, 133, 133);
+        }
+
+        section:hover{
+            background-color: rgb(205, 170, 236);
+            border: 3px dashed rgb(125, 97, 150);
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="index.html">&larr; Voltar ao Menu</a>
+        <div class="header">
+            <h1 id="topo">Praticando 4 - Bordas, Outline e <i>:houver</i>.</h1>
+            <p>Passe o mouse sobre cada caixa para ver o efeito de <i>:houver</i>.</p>
+            <div class="div">alguma coisa</div>
+        </div>
+    </header>
+
+    <br>
+
+    <section class="section1">
+        <h2>Tartaruga marinha <i>(Cheloniidae)</i></h2>
+        <p>Tartaruga-marinha <i>(Cheloniidae)</i> é a família da ordem das tartarugas que inclui as espécies que habitam mares tropicais e 
+            subtropicais em todo o mundo. O grupo é constituido por seis gêneros e sete espécie, todas elas ameaçadas de extinção.</p>
+        
+        <figure>
+            <figcaption>
+                <img class="img1Border" src="imagens/tartarura.jpg" alt="Tartaruga marinha (Cheloniidae)" width="250">
+            </figcaption>
+                <i class="legenda">Legenda: Tartaruga marinha (Cheloniidae)</i>
+        </figure>
+        
+        <p>A sobrevivência das tartatugas-marinhas continuam em risco devido a muitos anos de caça intensa pela sua carapaça, came (utilizada 
+            para sopa) e gordura. Atualmente a caça está controlada, mas estes animais continuam ameaçados pelas redes de pesca que matam cerca
+             de 40.000 exemplares por ano. Outra das maiores ameaças é o desenvolvimento costeiro nas áreas de nidificação, que impede as 
+             fêmeas de pór os ovos e impossibilita a sua reprodução.</p>
+        <p>A maioria das espécies são migratórias e vagueiam pelos oceanos, orientando-se com a ajuda do campo magnético terrestre.</p>
+    </section>
+
+    <br>
+
+    <section class="section2">
+        <h2>Onça-pintada <i>(Panthera onca)</i></h2>
+        <p>A onça-pintada <i>(Panthera onca)</i> é o maior felino das Americas e o terceiro maior do mundo, atrás apenas do leão e do tigre. 
+            Vive em florestas, pantanais e cerrados, do México até o norte da Argentina.</p>
+        
+        <figure>
+            <figcaption>
+                <img img class="img2Border" src="imagens/onca.jpg" alt="Onça-pintada (Panthera onca)" width="250">
+            </figcaption>
+            <i class="legenda">Legenda: Onça-pintada (Panthera onca)</i>
+        </figure>
+
+        <p>É um predador de topo de cadeia alimentar: caça desde capivaras e veados até jacarés, usando uma mordida extremamente forte, capaz
+            de perfurar o crânio de suas presas.</p>
+        <p>Está classificada como espécie quase ameaçada, principalmente por causa da destruição de seu habitat natural e de conflitos com produtores rurais.</p>
+    </section>
+
+    <br>
+
+    <section class="section3">
+        <h2>Mico-leão-dourado <i>(Leontopithecus rosalia)</i></h2>
+        <p>O mico-leão-dourado <i>(Leontopithecus rosalia)</i> é um pequeno primata encontrado apenas na Mata Atlântica do Rio de Janeiro, reconhecido pela pelagem
+        alaranjada e brilhante que lembra a juba de um leão.</p>
+
+        <figure>
+            <figcaption>
+                  <img img class="img3Border" src="imagens/mico.jpg" alt="Mico-leão-dourado (Leontopithecus rosalia)" width="250">   
+            </figcaption>
+            <i class="legenda">Legenda: Mico-leão-dourado (Leontopithecus rosalia)</i>
+        </figure>
+
+        <p>Vive em pequenos grupos familiares e se alimenta principalmente de frutas, insetos e pequenos vertebrados.</p>
+        <p>Foi um dos primeiros símbolos de conservação da fauna brasileira: chegou a ter menos de 200 indivíduos na natureza na década de 1970, e hoje é considerado
+        um símbolo de sucesso em programas de reintrodução.</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 IFSP Votuporanga - Desenvolvimento Web I</p>
+    </footer>
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+    
+</body>
+</html>

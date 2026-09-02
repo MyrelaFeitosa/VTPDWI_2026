@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 2 - CSS</title>
+
+    <style>
+        table,
+        td{
+            border: 1px solid red;
+        }
+
+        td{
+            padding: 30px 60px;
+            text-align: center;
+        }
+
+        #tabela2 {
+            border: 1px solid red;;
+            text-align: center;
+        }
+         
+        #tabela2 td{
+            border: 1px solid red;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #tabela2 th{
+            border: 1px solid red;
+            text-align: center;
+            padding: 0px
+        }
+
+
+        .yel {
+            background-color: yellow;
+        }
+
+        .blu {
+           background-color: blue;
+        }
+
+        .gree {
+            background-color: green;
+        }
+
+        .pin {
+            background-color: pink;
+        }
+
+        .oran {
+            background-color: orange;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="index.html">&larr; Voltar ao Menu</a>
+    <h1 id="topo">Praticando 2 - Tabela grande com Colspan e Rowspan colorida com CSS</h1>
+    
+    <table id="tabela1">
+        <caption>Tabelas Grande Com Colspan e Rowspan</caption>
+
+            <tr>
+                <td colspan="4" class="yel"> Colspan </td>
+            </tr>
+           
+            <tr>
+                <td class="oran"> -- </td><td class="pin"> -- </td><td class="gree"> -- </td><td class="blu"> -- </td>
+            </tr>
+             <tr>
+                <td class="oran"> -- </td><td rowspan="3" class="pin"> Rowspan </td><td class="gree"> -- </td><td class="blu"> -- </td>
+            </tr>
+            <tr>
+                <td class="oran"> -- </td><td class="gree"> -- </td><td class="blu"> -- </td>
+            </tr>
+            <tr>
+                <td class="oran"> -- </td><td class="gree"> -- </td><td class="blu"> -- </td>
+            </tr>
+         </table>
+
+        <br>
+
+         <table id="tabela2">
+            <caption>Legenda</caption>
+            <tbody>
+                <tr>
+                   <th scope="row">Linha 1</th><td class="gree"> --- </td></span><td>Green</td>
+                </tr>
+                <tr>
+                    <th scope="row">Linha 2</th><td class="red"> --- </td><td>Red</td>
+                </tr>
+                <tr>
+                    <th scope="row">Linha 3</th><td class="blu"> --- </td><td>Blue</td>
+                </tr>
+                <tr>
+                    <th scope="row">Linha 4</th><td class="yel"> --- </td><td>Yellow</td>
+                </tr>
+            </tbody>
+         </table>
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+</body>
+</html>
