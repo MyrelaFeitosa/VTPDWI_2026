@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 4 - Tabela de cores e Imagens como plano de fundo</title>
+
+    <style>
+    
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    .cor1 {
+        background-color: red;
+    }
+
+    .cor2 {
+        background-color: #b30000;
+    }
+
+    .cor3 {
+        background-color: #660000;
+    }
+
+    .cor4 {
+        background-color: green;
+    }
+
+    .cor5 {
+        background-color: #99ff99;
+    }
+
+    .cor6 {
+        background-color: #004d00;
+    }
+
+    .cor7 {background-color: blue;
+    }
+
+    .cor8 {
+        background-color: #ccccff;
+    }
+
+    .cor9 {
+        background-color: #000066;
+    }
+
+    body {
+        background-image: url(imagens/Marca_IFSP_2015031.png), url(imagens/1330892.png);
+        background-position: 100% 30%, bottom;
+        background-repeat: no-repeat, repeat-x;
+        background-size: 120px 120px, 90px 90px;
+        background-attachment: fixed, fixed;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <!--
+        PRATICANDO 4 - Tabela de cores e Imagens como plano de fundo
+        ========================================================
+
+        Para cada linha da tabela, crie uma classe que pinte a célula
+        da coluna "Cor" com EXATAMENTE o código mostrado na coluna
+        "Código" ao lado (nome da cor ou hexadecimal).
+
+        Além disso:
+
+        - Coloque as duas imagens, do logo do IFSP e da paleta de cores 
+        como imagem de fundo e algum elemento HTML para obter o resultado mostrado
+        nas imagens de modelo do praticando.
+
+        Não use style inline!
+
+        Imagens disponíveis: imagens/1330892.png e
+        imagens/Marca_IFSP_2015031.png
+    -->
+    <a href="index.html">Voltar ao Menu</a>
+    <h1 id="topo">Praticando 4 - Tabela de cores e Imagens como plano de fundo</h1>
+
+    <table class="table">
+        <caption>Tabela de cores HTML/CSS</caption>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Cor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>red</td>
+                <td class="cor1"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#b30000</td>
+                <td class="cor2"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#660000</td>
+                <td class="cor3"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>green</td>
+                <td class="cor4"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#99ff99</td>
+                <td class="cor5"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#004d00</td>
+                <td class="cor6"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>blue</td>
+                <td class="cor7"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#ccccff</td>
+                <td class="cor8"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+            <tr>
+                <td>#000066</td>
+                <td class="cor9"> - - - - - - - - - - - - - - - - - - - - </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+</body>
+
+</html>

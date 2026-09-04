@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 5 - Opacidades</title>
+
+    <style>
+        
+        body {
+            background-color: rgb(125, 218, 235);
+        }
+
+        section {
+            background-color: rgb(185, 180, 180);
+            border: 2px solid grey;
+        }
+
+        .div {
+            background-color: rgba(0, 128, 0);
+            opacity: 1.0;
+        }
+
+        .div1 {
+            background-color: rgb(0, 128, 0);
+            opacity: 0.8;
+        }
+
+        .div2 {
+            background-color: rgb(0, 128, 0);
+            opacity: 0.6;
+        }
+
+        .div3 {
+            background-color: rgb(0, 128, 0);
+            opacity: 0.4;
+        }
+
+        .div4 {
+            background-color: rgb(0, 128, 0);
+            opacity: 0.2;
+        }
+
+        .div01 {
+            background-color: rgba(0, 128, 0, 0.8);
+        }
+
+        .div02 {
+            background-color: rgba(0, 128, 0, 0.6);
+        }
+
+        .div03 {
+            background-color: rgba(0, 128, 0, 0.4);
+        }
+
+        .div04 {
+             background-color: rgba(0, 128, 0, 0.2);
+        }
+
+        img {
+            opacity: 0.6;
+        }
+
+        img:hover{
+            background-color: rgb(205, 170, 236);
+           /* border: 3px dashed rgb(125, 97, 150);*/
+            outline: 3px solid green;
+            opacity: 1.0;
+        }
+
+    </style>
+
+</head>
+
+<body class="body">
+    <!--
+        PRATICANDO 5 - Opacidades
+        ========================================================
+
+        Crie 3 seções diferentes:
+
+        1. Efeito de foco transparente (imagens)
+           As 3 imagens devem começar com opacidade reduzida e ficar
+           com opacidade total ao passar o mouse (hover). Ao ficar em
+           foco, destaque a imagem com um outline.
+
+        2. Opacidade com a propriedade "opacity"
+           Cada div deve usar o valor de opacidade indicado no seu
+           próprio título (0.8, 0.6, 0.4, 0.2). Observe o que acontece
+           com o texto dentro de cada div.
+
+        3. Opacidade com "background-color" em rgba
+           Repita o mesmo efeito visual do item 2, mas agora usando
+           rgba() no background-color em vez de opacity. Compare o
+           resultado com o item anterior — o que muda no texto?
+    -->
+    <a href="index.html">Voltar ao Menu</a>
+    <h1 id="topo">Praticando 5 - Opacidades</h1>
+
+    <section class="section">
+        <h3>Exemplo de uso de opacidade para fazer um efeito de foco transparente</h3>
+
+        <img src="imagens/img_forest.jpg" alt="Ponte na Floresta" width="200">
+        <img src="imagens/img_mountains.jpg" alt="Montanha com Lago" width="200">
+        <img src="imagens/img_5terre.jpg" alt="Cidade na Ilha" width="200">
+
+    </section>
+
+    <br>
+
+    <section class="section">
+        <h3>Exemplo de uso de opacidade para tornar as caixas transparentes usando a propriedade opacity</h3>
+
+        <div class="div"><b>Opacidade 1.0 (valor padrão, nenhuma opacidade)</b></div>
+        <br>
+        <div class="div1"><b>Opacidade 0.8</b></div>
+        <br>
+        <div class="div2"><b>Opacidade 0.6</b></div>
+        <br>
+        <div class="div3"><b>Opacidade 0.4</b></div>
+        <br>
+        <div class="div4"><b>Opacidade 0.2</b></div>
+
+    </section>
+
+    <br>
+
+    <section class="section">
+        <h3>Exemplo de uso de opacidade para tornar as caixas transparentes usando a propriedade background-color com valor em
+        rgba</h3>
+
+        <div class="div01"><b>RGBA 0.8</b></div>
+        <br>
+        <div class="div02"><b>RGBA 0.6</b></div>
+        <br>
+        <div class="div03"><b>RGBA 0.4</b></div>
+        <br>
+        <div class="div04"><b>RGBA 0.2</b></div>
+
+    </section>
+
+    <br>
+    <a href="#topo">Voltar ao Topo</a>
+   
+</body>
+
+</html>
