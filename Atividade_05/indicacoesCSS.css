@@ -1,0 +1,42 @@
+.div2 {
+    background-color: rgb(156, 156, 156);
+    border-style: 2px double rgb(177, 171, 171);
+    margin: 20px;
+}
+
+.navv {
+    margin-left: 40px;
+}
+
+.img {
+    border: 3px dashed rgb(250, 82, 110);
+    margin: 10px;
+    padding: 10px;
+}
+
+.iframe {
+    border: 3px solid rgb(250, 82, 110));
+    margin: 10px;
+    padding: 10px;
+}
+
+.subtitulo {
+    margin-left: 180px;
+}
+
+.subtitulo2 {
+    margin-left: 70px;
+}
+
+.mark {
+    background-color: rgb(250, 82, 110);
+}
+
+h2 {
+    margin-left: 20px;
+    font-family: 'Comic Relief', 'Times New Roman';
+}
+
+.mark2 {
+    background-color: rgb(168, 167, 167);
+}

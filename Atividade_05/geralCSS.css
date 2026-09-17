@@ -1,0 +1,58 @@
+
+
+.background{
+    background-color: rgb(252, 210, 217);
+}
+
+.div {
+    background-color: rgb(211, 208, 208);
+    border: 2px dashed rgb(185, 183, 183);
+    padding: 10px;
+}
+
+.titulo {
+    background-color: rgb(199, 160, 167);
+    border: 2px dashed rgb(170, 131, 138);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Relief', 'Times New Roman';
+    color: rgb(209, 87, 107);
+}
+
+#p {
+    text-align: center;
+}
+
+h3{
+    margin-left: 20px;
+    font-family: 'Comic Relief', 'Times New Roman';
+}
+
+
+.button {
+    background-color: rgb(201, 199, 199);
+    border: 1px solid rgb(170, 131, 138);
+    margin: 10px;
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: rgb(252, 173, 219);
+}
+
+.footer {
+    background-color: rgb(199, 160, 167);
+    border: 2px dashed rgb(170, 131, 138);
+}
+
+.nav {
+    margin-left: 20px;
+}
+
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}

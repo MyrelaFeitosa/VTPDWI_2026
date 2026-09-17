@@ -1,0 +1,18 @@
+.iframe {
+    border: 3px solid rgb(250, 82, 110));
+    margin: 10px;
+    padding: 10px;
+}
+
+.img{
+    border: 3px dashed rgb(209, 87, 107);
+}
+
+h2{
+    margin-left: 20px;
+    font-family: 'Comic Relief', 'Times New Roman';
+}
+
+.mark {
+    background-color: rgb(172, 171, 171);
+}
