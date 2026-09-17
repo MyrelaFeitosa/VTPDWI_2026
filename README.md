@@ -11,5 +11,7 @@ Aluna: Myrela Feitosa
 
 [Atividade_03] - Praticando: Introdução ao CSS, Seções, Containers, Bordas, Outline e :Houver.
 
-[Atividade_04] - Praticando: Colors, Background-color, Painel de Status, Planos de fundos com cores e com imagens e Tabela de cores e Imagens como plano de fundo
+[Atividade_04] - Praticando: Colors, Background-color, Painel de Status, Planos de fundos com cores e com imagens e Tabela de cores e Imagens como plano de fundo.
+
+[Atividade_05] - Praticando: Atualização da Atividade_01 com o conteúdo CSS aprendido até o momento.
 
