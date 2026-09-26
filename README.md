@@ -16,3 +16,5 @@ Aluna: Myrela Feitosa
 [Atividade_05] - Praticando: Atualização da Atividade_01 com o conteúdo CSS aprendido até o momento.
 
 [Atividade_06] - Praticando: Altura, Largura, Float e Visibility.
+
+[Atividade_07] - Praticando: Atualização da Atividade_05 para o Conceito de Mobile First + Página com InfoProduto.
