@@ -1,0 +1,124 @@
+
+
+.background{
+    background-color: rgb(252, 210, 217);
+}
+
+.div {
+    background-color: rgb(211, 208, 208);
+    border: 2px dashed rgb(185, 183, 183);
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.titulo {
+    background-color: rgb(199, 160, 167);
+    border: 2px dashed rgb(170, 131, 138);
+}
+
+/*.nav {
+    text-align: center;
+}*/
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Relief', 'Times New Roman';
+    color: rgb(209, 87, 107);
+}
+
+h3{
+    text-align: center;
+    font-family: 'Comic Relief', 'Times New Roman';
+}
+
+#p {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.button {
+    background-color: rgb(201, 199, 199);
+    border: 1px solid rgb(170, 131, 138);
+    margin: 10px;
+    padding: 5px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(199, 160, 167);
+    border: 2px dashed rgb(170, 131, 138);
+}
+
+.mark {
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(211, 208, 208);
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    background-color: rgb(192, 191, 191);
+    border: outset;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+ @media screen and (min-width: 700px){
+    .div {
+        background-color: rgb(211, 208, 208);
+        border: 2px dashed rgb(185, 183, 183);
+        padding: 10px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .background{
+        background-color: rgb(252, 210, 217);
+        margin: 10px 150px;
+    }
+
+    .flex-container {
+        display: flex;
+        background-color: rgb(211, 208, 208);
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .flex-item {
+        background-color: rgb(192, 191, 191);
+        border: outset;
+        border-radius: 10%;
+        margin: 5px;
+        padding: 5px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        background-color: rgb(228, 167, 228);
+    }
+
+    .flex-item:hover {
+        background-color: rgb(228, 167, 228);
+    }
+}
+

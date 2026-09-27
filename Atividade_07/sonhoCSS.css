@@ -1,0 +1,58 @@
+h2 {
+    font-family: 'Comic Relief', 'Times New Roman';
+}
+
+.div {
+    background-color: rgb(211, 208, 208);
+    border: 2px dashed rgb(185, 183, 183);
+}
+
+figure {
+    margin: 0;
+}
+
+.img1 {
+    border: 2px dashed rgb(209, 87, 107);
+    padding: 5px;
+    width: 95%;
+}
+
+.img2 {
+    border: 3px solid grey;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    width: 20vw;
+    height: 20vw;
+}
+
+.mark {
+    background-color: rgb(180, 180, 180);
+    text-align: center;
+}
+
+.mark2 {
+    background-color: rgb(250, 146, 163);
+}
+
+@media screen and (min-width: 700px){
+    .img1 {
+    border: 3px dashed rgb(209, 87, 107);
+    padding: 10px;
+    width: 50%;
+    }
+
+    .img2 {
+        border: 3px solid grey;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 3px;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .texto {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
