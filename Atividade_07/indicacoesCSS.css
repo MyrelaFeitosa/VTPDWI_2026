@@ -82,6 +82,10 @@ figure {
     background-color: rgb(168, 167, 167);
 }
 
+.texto5 {
+    margin-top: 10px;
+}
+
 
 @media screen and (min-width: 700px){
     .iframe {
