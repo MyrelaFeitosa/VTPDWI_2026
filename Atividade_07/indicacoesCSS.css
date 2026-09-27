@@ -64,6 +64,7 @@ figure {
     margin: 5px;
     padding: 10px;
     width: 85%;
+    display: block;
 }
 
 .iframe {
@@ -80,10 +81,6 @@ figure {
 
 .mark2 {
     background-color: rgb(168, 167, 167);
-}
-
-.texto5 {
-    margin-top: 10px;
 }
 
 
