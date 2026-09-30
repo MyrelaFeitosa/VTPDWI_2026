@@ -1,0 +1,634 @@
+/*Coisas Novas: Gradiente de Cor no Background e Colapso de Borda na Tabela*/
+
+/*Background com Gradiente*/
+.backgroundColor {
+    background: linear-gradient(
+        to bottom,
+        #080D1A,
+        #172554,
+        #080D1A
+    );
+}
+
+/*Cabeçalho c/ Título e Imagem de Fundo*/
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10%;
+    justify-content: center;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+    background-image: url('imagens/infoProduto/fundo.png');
+    background-size: cover;
+}
+
+/*Div preta com opacidade do título*/
+.titulo {
+    background-color: black;
+    opacity: 0.8;
+    padding: 5px;
+    align-items: center;
+    margin: 10px;
+}
+
+/*Titulo do cabeçalho c/ Fonte laranja*/
+h1 {
+    text-align: center;
+    font-family: 'Fascinate', 'Times New Roman';
+    color: rgb(255, 138, 4);
+}
+
+/*div Principal - Fundo Cinza*/
+.div {
+    background-color: rgb(192, 191, 191);
+    border: 3px dashed rgb(80, 78, 78);
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Container do Menu Principal*/
+.flex-container {
+    display: flex;
+    background-color: rgb(192, 191, 191);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Formatação dos Botões do Menu Principal*/
+.flex-item {
+    background-color: rgb(192, 191, 191);
+    border: outset;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Formatação do Menu 2*/
+.div2 {
+    background-color: rgb(156, 156, 156);
+    margin: 5px auto;
+    padding: 5px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Formatação dos Botões do Menu 2 */
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+.nav1 {
+    display: none;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Formatação do Título do Summary*/
+summary {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Formatação dos Subtítulos*/
+h2, h3, h4 {
+    font-family: 'Comic Relief', 'Times New Roman';
+    text-align: center; 
+}
+
+/*Formatação do parágrafo padrão*/
+p {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+    text-align: justify;
+    font-size: 16px;
+}
+
+/*Formatação de fonte dos items da lista*/
+li {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Mark Preto dos Subtítulos*/
+.mark {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+/*Mark dos módulo do 'Conteúdo'*/
+.markh4  {
+    background-color: rgb(107, 173, 211);
+    color: rgb(36, 36, 119);
+    padding: 3px;
+}
+
+/*Mark em Laranja das Linguagens em 'O que vc vai aprender'*/
+.markOran {
+    background-color: orange;
+    padding: 3px;
+}
+
+/*Container Informação + Img nas partes 'Informações Adc.', 'Preço' e 'O que está incluso'*/
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Div dos Módulo na parte 'Conteúdo do Curso'*/
+.conteudoCurso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.divModulos {
+    background-color: rgb(150, 192, 255);
+    padding: 15px;
+    border: 3px outset rgb(129, 129, 243);
+}
+
+/*Div que guarda a IMG dentro do Container 'Conteudo'*/
+.imgContt {
+    display: none;
+}
+
+.imgCont {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Tamanho da IMG Comput*/
+.img4 {
+    width: 90%;
+}
+
+/*Div que guarda 'O que esta incluso'*/
+.incluso {
+    background-color: rgb(241, 124, 28);
+    border: 3px outset orangered;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.divTabela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Formatação da Tabela*/
+.table {
+    background-color: rgb(68, 165, 245);
+    border: 4px outset blue;
+    border-collapse: collapse;
+}
+
+/*Formatação das Células da Tabela*/
+th, td {
+    border: 4px outset blue;
+    padding: 10px;
+}
+
+/*div do Preço*/
+.preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 174, 23);
+    border: 3px outset orange;
+    width: 80%;
+}
+
+/*Formatação do Botão 'Começar' na parte 'Preço'*/
+.buttonComeca {
+    background-color: rgb(255, 255, 255);
+    border: 3px outset orange;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+    text-decoration: none;
+    color: black;
+}
+
+/*do Botão 'Começar' na parte 'Preço'*/
+.buttonComeca:hover {
+    background-color: rgb(50, 221, 107);
+    border: 3px outset black;
+}
+
+/*Mark Cinza na parte 'Preço'*/
+.markGrey {
+    background-color: white;
+    padding: 5px;
+}
+
+/*Formatação do texto na parte 'Quem Somos'*/
+.texto {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Container da parte 'Depoimentos'*/
+.depoimentos {
+    display: none;
+}
+
+#depoimentos {
+    display: none;
+}
+
+/*Div de cada depoimentos na parte 'Depoimentos'*/
+.comentario {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#perguntas {
+    display: block;
+}
+
+.details {
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    text-align: center; 
+}
+
+/*Formatação do texto na parte 'Depoimentos'*/
+.pp {
+    font-family: "Playwrite CA Guides", cursive, "Times New Roman";
+}
+
+/*Formatação do Rodapé*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #080D1A;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+/*Formatação do Botão 'Voltar ao Topo'*/
+.button {
+    background-color: rgb(201, 199, 199);
+    border: 1px outset black;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Hover do Botão 'Voltar ao Topo'*/
+.button:hover {
+    background-color: grey;
+}
+
+/*Formatação dos parágrafos do rodapé*/
+#p {
+    color: white;
+}
+
+#pp {
+    color: white;
+    margin-left: 80px;
+}
+
+
+
+@media screen and (min-width: 700px){
+
+/*div Principal - Fundo Cinza*/
+.div {
+    background-color: rgb(192, 191, 191);
+    border: 3px dashed rgb(80, 78, 78);
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/*Container do Menu Principal*/
+.flex-container {
+    display: flex;
+    background-color: rgb(192, 191, 191);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/*Formatação dos Botões do Menu Principal*/
+.flex-item {
+    background-color: rgb(192, 191, 191);
+    border: outset;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Hover dos Botões do Menu Principal*/
+.flex-item:hover {
+    background-color: grey;
+}
+
+/*Formatação do Menu 2*/
+.div2 {
+    background-color: rgb(156, 156, 156);
+    margin: 5px auto;
+    padding: 5px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Formatação dos Botões do Menu 2 */
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+.nav2 {
+    display: none;
+}
+
+/*Formatação do Título do Summary*/
+summary {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Formatação dos Subtítulos*/
+h2, h3, h4 {
+    font-family: 'Comic Relief', 'Times New Roman';
+    text-align: center; 
+}
+
+/*Formatação do parágrafo padrão*/
+p {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+    text-align: center;
+    font-size: 16px;
+}
+
+/*Formatação de fonte dos items da lista*/
+li {
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+}
+
+/*Mark Preto dos Subtítulos*/
+.mark {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+/*Mark dos módulo do 'Conteúdo'*/
+.markh4  {
+    background-color: rgb(107, 173, 211);
+    color: rgb(36, 36, 119);
+    padding: 3px;
+}
+
+/*Mark em Laranja das Linguagens em 'O que vc vai aprender'*/
+.markOran {
+    background-color: orange;
+    padding: 3px;
+}
+
+/*Container Informação + Img nas partes 'Informações Adc.', 'Preço' e 'O que está incluso'*/
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Div dos Módulo na parte 'Conteúdo do Curso'*/
+.conteudoCurso {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+/*Div que guarda a IMG dentro do Container 'Conteudo'*/
+.imgContt {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCont {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Tamanho da IMG logo_HTML*/
+.img {
+    width: 50%;
+}
+
+/*Tamanho da IMG logo_java*/
+.img2 {
+    width: 55%;
+}
+
+/*Tamanho da IMG logo_CSS*/
+.img3 {
+    width: 40%;
+}
+
+/*Tamanho da IMG Comput*/
+.img4 {
+    width: 90%;
+}
+
+/*Div que guarda 'O que esta incluso'*/
+.incluso {
+    background-color: rgb(241, 124, 28);
+    border: 3px outset orangered;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+/*Formatação da Tabela*/
+.table {
+    background-color: rgb(68, 165, 245);
+    border: 4px outset blue;
+    margin-left: 35px;
+    border-collapse: collapse;
+}
+
+/*Formatação das Células da Tabela*/
+th, td {
+    border: 4px outset blue;
+    padding: 10px;
+}
+
+/*div do Preço*/
+.preco {
+    background-color: rgb(255, 174, 23);
+    border: 3px outset orange;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    width: 15%;
+}
+
+/*Formatação do Botão 'Começar' na parte 'Preço'*/
+.buttonComeca {
+    background-color: rgb(255, 255, 255);
+    border: 3px outset orange;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'M PLUS Rounded 1c', 'Times New Roman';
+    text-decoration: none;
+    color: black;
+}
+
+/*do Botão 'Começar' na parte 'Preço'*/
+.buttonComeca:hover {
+    background-color: rgb(50, 221, 107);
+    border: 3px outset black;
+}
+
+/*Mark Cinza na parte 'Preço'*/
+.markGrey {
+    background-color: white;
+    padding: 5px;
+}
+
+/*Formatação do texto na parte 'Quem Somos'*/
+.texto {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*Container da parte 'Depoimentos'*/
+.depoimentos {
+    display: flex;
+    justify-content: center;
+}
+
+#depoimentos {
+    display: block;
+}
+
+/*Div de cada depoimentos na parte 'Depoimentos'*/
+.comentario {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.perguntas {
+    display: none;
+}
+
+#perguntas {
+    display: none;
+}
+
+/*Formatação do texto na parte 'Depoimentos'*/
+.pp {
+    font-family: "Playwrite CA Guides", cursive, "Times New Roman";
+}
+
+/*Formatação do Rodapé*/
+.footer {
+    text-align: center;
+    background-color: #080D1A;
+    border: 2px solid white;
+    border-radius: 10%;
+}
+
+/*Formatação do Botão 'Voltar ao Topo'*/
+.button {
+    background-color: rgb(201, 199, 199);
+    border: 1px outset black;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+/*Hover do Botão 'Voltar ao Topo'*/
+.button:hover {
+    background-color: grey;
+}
+
+/*Formatação dos parágrafos do rodapé*/
+#p {
+    color: white;
+}
+
+#pp {
+    color: white;
+    margin: 0;
+}
+    
+}
+
