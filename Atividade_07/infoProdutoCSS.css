@@ -460,6 +460,12 @@ li {
     padding: 3px;
 }
 
+.markOran2 {
+    background-color: orange;
+    padding: 3px;
+    color: white;
+}
+
 /*Container Informação + Img nas partes 'Informações Adc.', 'Preço' e 'O que está incluso'*/
 .conteudo {
     display: flex;
