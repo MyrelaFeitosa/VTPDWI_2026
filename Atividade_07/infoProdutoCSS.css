@@ -25,6 +25,8 @@
 
 /*Div preta com opacidade do título*/
 .titulo {
+    display: flex;
+    flex-direction: column;
     background-color: black;
     opacity: 0.8;
     padding: 5px;
@@ -38,6 +40,7 @@ h1 {
     font-family: 'Fascinate', 'Times New Roman';
     color: rgb(255, 138, 4);
 }
+
 
 /*div Principal - Fundo Cinza*/
 .div {
@@ -147,6 +150,12 @@ li {
 .markOran {
     background-color: orange;
     padding: 3px;
+}
+
+.markOran2 {
+    background-color: orange;
+    padding: 3px;
+    color: white;
 }
 
 /*Container Informação + Img nas partes 'Informações Adc.', 'Preço' e 'O que está incluso'*/
