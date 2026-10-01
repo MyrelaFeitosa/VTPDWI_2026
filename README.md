@@ -17,4 +17,6 @@ Aluna: Myrela Feitosa
 
 [Atividade_06] - Praticando: Altura, Largura, Float e Visibility.
 
-[Atividade_07] - Praticando: Atualização da Atividade_05 para o Conceito de Mobile First + Página com InfoProduto.
+[Atividade_07] - Praticando: Atualização da Atividade_05 para o Conceito de Mobile First + FlexBox + Página com InfoProduto.
+
+[Atividade_08] - Praticando: Primeira atividade com Grid + FlexBox.
