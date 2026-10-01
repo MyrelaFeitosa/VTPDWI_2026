@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 14px;
+
+    color: #2b2b2b;
+    background-color: #ffffff;
+}
+
+/*Grid Principal - Estrutura da Página*/
+.containerGrid {
+    display: grid;
+
+    width: 100%;
+    height: 100vh;
+
+    /*Inclui a borda no tamanho total*/
+     box-sizing: border-box;
+
+    /*Cria 7 coluna com espaços iguais*/
+    grid-template-columns: repeat(7, 1fr);
+
+    /*60px -> header | 50px -> nav | 1fr -> main/aside | 1fr -> main/aside | 120px -> footer*/
+    /*1fr -> espaço que sobrar será dividido entre essas duas linhas*/
+    grid-template-rows: 60px 50px minmax(0, 1fr) minmax(0, 1fr) 120px;
+
+    grid-template-areas:
+        'header header header header header header header'
+        'nav nav nav nav nav nav nav'
+        'main main main main main aside aside'
+        'main main main main main aside aside'
+        'footer footer footer footer footer footer footer';
+}
+
+.item1 {
+    grid-area: header;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #3e2a20;
+    color: #ffffff;
+
+    align-items: center;
+}
+
+.esquerda {
+    display: flex;
+    gap: 5px;
+}
+
+.icone, .nomeSite {
+    padding: 5px;
+}
+
+.nomeSite {
+    padding: 5px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.botao {
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.item2 {
+    grid-area: nav;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 3px solid #2f7d6d;
+    padding: 5px;
+
+    background-color: #e3f1ec;
+}
+
+.item2 a {
+    padding: 5px;
+
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.item2 a:hover {
+    background-color: #2f7d6d;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.item3 {
+    grid-area: main;
+
+    /*Transforma a Main em um Grid*/
+    display: grid;
+
+    /*30px -> reservado ao 'cardápio | minmax(0, 1fr) -> Pode ter tamanho min 0 e ocupa restante do espaço*/
+    grid-template-rows: 30px minmax(0, 1fr);
+
+    /*Ocupa somente o espaço que o grid deu para ele*/
+    min-height: 0;
+}
+
+.item3 h3 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    align-self: center;
+}
+
+/*Segundo Grid - grid interno com os cards*/
+.cards {
+    display: grid;
+
+    /*Cinco colunas divididas igualmente*/
+    grid-template-columns: repeat(5, 1fr);
+
+    /*Adc espaçamento entre os cards*/
+    gap: 10px;
+
+    /*Divide o espaço disponível igualmente entre duas linhas*/
+   grid-template-rows: repeat(2, minmax(0, 1fr));
+
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed grey;
+
+    /*A altura mínima desse elemento pode ser 0.*/
+    min-height: 0;
+}
+
+.card {
+    border: 2px solid #cfe3db;
+
+    display: flex;
+    flex-direction: column;
+
+    /*Alinha no centro horizontalmente*/
+    align-items: center;
+    /*Alinha no centro verticalmente*/
+    justify-content: center;
+    gap: 5px;
+
+    /*Define padding e o margin como parte do tamanho total*/
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card > div {
+    padding: 3px;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: #e3f1ec;
+    border-color: #2f7d6d;
+}
+
+/*Span -> Indica quantas linhas/colunas um elemento deve ocupar*/
+.destaque {
+    grid-column: span 2;
+    background-color: #e3f1ec;
+    border-color: #2f7d6d;
+}
+
+.preco {
+    color: #2f7d6d;
+    font-weight: 700;
+}
+
+.nome {
+    font-weight: 800;
+}
+
+.item4 {
+    grid-area: aside;
+    border-left: 3px solid #2f7d6d ;
+    text-align: center;
+}
+
+.item5 {
+    grid-area: footer;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+
+    /*Quebra o alinhamento e joga para baixo caso não haja espaço*/
+    flex-wrap: wrap;
+
+    background-color: #3e2a20;
+    border-top: 3px solid #2f7d6d;
+    color: #ffffff;
+}
+
+.infoFooter {
+    display: grid;
+
+    /*Três colunas, com o espaço dividido igualmente entre elas*/
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 100%;
+}
+
+.infoFooter > div {
+    padding: 2px;
+    margin: 2px;
+}
+
+.infoFooter p {
+    margin: 0;
+
+    /*Controla a altura do texto -> Altura da linha é aproximadamente igual ao tamanho da fonte.*/
+    line-height: 1;
+    font-size: 14px;
+    padding: 0;
+}
+
+.rodapeFinal {
+    margin: 5px 0 0 0;
+    text-align: center;
+    width: 100%;
+
+    border-top: 1px solid #6b5447;
+    padding-top: 5px;
+}
+
+.titulo {
+    color: #8fd3bf;
+    font-weight: 800;
+}
+
+
+
