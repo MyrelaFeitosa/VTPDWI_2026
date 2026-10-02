@@ -83,7 +83,7 @@ figure {
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 950px){
     .iframe {
         width: 80%;
         height: 300px;
