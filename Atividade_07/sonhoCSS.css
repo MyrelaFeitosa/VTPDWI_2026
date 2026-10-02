@@ -35,7 +35,7 @@ figure {
     background-color: rgb(250, 146, 163);
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 950px){
     .img1 {
     border: 3px dashed rgb(209, 87, 107);
     padding: 10px;
