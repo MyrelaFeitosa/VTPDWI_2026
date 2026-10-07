@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: rgb(255, 216, 223);
+}
+
+.banner {
+    background-color: rgb(168, 80, 96);
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+     background-color: rgb(168, 80, 96);
+}
+
+
+h1 {
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+h2, h4 {
+    font-family: "Playwrite CA Guides", cursive;
+}
+
+
+p {
+    font-family: "Lekton", monospace;
+    font-weight: 500;
+    font-style: normal;        
+}        
+
+
+

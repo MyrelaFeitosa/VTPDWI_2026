@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Café e Livros - Sobre o Clube</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSSgeral.css">
+
+    <!--Fontes Google Docs-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        .card:hover {
+            background-color: rgb(223, 223, 223);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ==================== BANNER ==================== -->
+
+    <header class="banner">
+
+        <img src="imagens/logo.png" class="img-fluid rounded-4 mb-1" alt="Livros">
+
+        <h1 class="mb-4">Café & Livros</h1>
+
+        <h4>
+            "Um lugar para compartilhar histórias,
+            descobrir novos livros e conversar sobre literatura."
+        </h4>
+
+    </header>
+
+    <!-- ==================== MENU ==================== -->
+
+    <nav class="nav nav-pills justify-content-center bg-white p-3">
+
+        <a class="nav-link" href="index.html">
+            Sobre o Clube
+        </a>
+
+        <a class="nav-link active bg-danger" href="leituras.html">
+            Nossas Leituras
+        </a>
+
+        <a class="nav-link" href="formulario.html">
+            Fazer Cadastro
+        </a>
+
+    </nav>
+
+    <!-- ==================== CONTEÚDO ==================== -->
+
+    <main class="container py-5">
+
+        <!-- LEITURAS ANTERIORES -->
+        <div class="card bg-white rounded-4 border-0 shadow p-4 mb-4">
+
+            <div class="card-body">
+
+                <h2 class="text-center mb-5">
+                    📚 Leituras Anteriores
+                </h2>
+                <p class="text-center">De uma olhadas nas nossas últimas leituras: </p>
+
+                <!-- CARDS -->
+                <div class="row g-4">
+                    <!--col -> Alinhar em coluna | d-flex -> transforma em flexbox| justify-content_center -> Alinhar o conteúdo no centro-->
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livroo1.jpg" class="card-img-top" alt="Livro 1 - O Nome do Vento">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">O Nome do Vento</h5>
+                                <p class="card-text">Autor: Patrick Rothfuss</p>
+                                <p class="card-text">Gênero: Aventura</p>
+                                <p class="card-text">Data:02/06/2026 a 30/07/2026 </p>
+                                <p class="card-text">Avaliação Coletiva: ⭐⭐⭐⭐⭐ </p>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livro2.jpg" class="card-img-top" alt="Livro 2 - O Iluminado">
+
+                            <div class="card-body text-center">
+                                <h5 class="card-title">O Iluminado</h5>
+                                <p class="card-text">Autor: Sthephen King </p>
+                                <p class="card-text">Gênero: Terror</p>
+                                <p class="card-text">Data: 05/07/2026 a 10/08/2026</p>
+                                <p class="card-text">Avaliação Coletiva: ⭐⭐⭐⭐⭐</p>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livro3.png" class="card-img-top" alt="Livro 3 - Mulherzinhas">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Mulherzinhas</h5>
+                                <p class="card-text">Autor: Loiusa May Alcott</p>
+                                <p class="card-text">Gênero: Romance / Drama</p>
+                                <p class="card-text">Data: 15/08/2026 a 20/09/2026</p>
+                                <p class="card-text">Avaliação Coletiva: ⭐⭐⭐⭐⭐</p>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+
+        <!-- LEITURA ATUAL -->
+        <div class="card bg-white rounded-4 border-0 shadow p-4 mb-4">
+            <h2 class="text-center mb-5">
+                📚 Leitura Atual
+            </h2>
+            <p class="text-center">Acompanhe nossa leitura atual: </p>
+
+            <div class="d-flex justify-content-center">
+                <div class="card shadow" style="width: 18rem;">
+                    <img src="imagens/leituras/livro4.jpg" class="card-img-top" alt="Livro 4 - Verity">
+                    <div class="card-body text-center">
+                            <h5 class="card-title">Verity</h5>
+                            <p class="card-text">Autor: Coolen Hoover</p>
+                            <p class="card-text">Gênero: Thriller</p>
+                            <p class="card-text">Início: 25/09/2026</p>
+
+                            <div class="progress mb-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 45%">45%</div>
+                            </div>
+
+                        <a href="formulario.html" class="btn btn-success">Participar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- PRÓXIMAS LEITURAS -->
+        <div class="card bg-white rounded-4 border-0 shadow p-4 mb-4">
+             <div class="card-body">
+
+                <h2 class="text-center mb-5">
+                    📚 Próximas Leituras
+                </h2>
+                <p class="text-center">Nos ajude a escolher nossa próxima leitura: </p>
+
+                <!-- CARD -->
+                <div class="row g-4">
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livro5.jpg" class="card-img-top" alt="Livro 5 - O Massacre da Familia Hope">
+                            <div class="card-body text-center">
+                                    <h5 class="card-title">O Massacre da Familia H.</h5>
+                                    <p class="card-text">Autor: Riley Sager</p>
+                                    <p class="card-text">Gênero: Suspense/ Thriller</p>
+                                <a href="#" class="btn btn-warning">Votar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livro6.jpg" class="card-img-top" alt="Livro 6 - A Última Carta">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">A Última Carta</h5>
+                                <p class="card-text">Autor: Rebecca Yarros</p>
+                                <p class="card-text">Gênero: Romance/ Drama</p>
+                                <a href="#" class="btn btn-warning">Votar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <div class="card shadow" style="width: 18rem;">
+                            <img src="imagens/leituras/livro7.jpg" class="card-img-top" alt="Livro 6 - Crime e Castigo">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Crime e Castigo</h5>
+                                <p class="card-text">Autor: Fiódor Dostoievski </p>
+                                <p class="card-text">Gênero: Ficção Psicológica</p>
+                                <a href="#" class="btn btn-warning">Votar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ==================== RODAPÉ ==================== -->
+
+    <footer class="text-center p-4">
+
+        <p class="mb-0">
+            Café & Livros • Um clube para quem ama histórias!
+        </p>
+
+    </footer>
+
+</body>
+</html>
